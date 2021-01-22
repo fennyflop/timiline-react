@@ -1,0 +1,11 @@
+.list {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 1000px) {
+    .list {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,51 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    justify-content: space-between;
+}
+.form__container {
+    display: flex;
+    flex-direction: column;
+}
+.form__fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+.form__date {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid white;
+    width: 25%;
+    color: white;
+    padding: 0;
+    margin: 0;
+    transition: all .3s ease-in;
+}
+.form__submit {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    outline: none;
+    padding: 5px 0;
+}
+.form__title {
+    color: white;
+    margin: 0 auto 50px auto;
+}
+.form__error {
+    color: red;
+    margin: auto auto;
+}
+.form__well {
+    color: lime;
+    margin: 0 auto 10px; 
+}
+.form__date-error {
+    border-bottom: 2px solid red;
+}

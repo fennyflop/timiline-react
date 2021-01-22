@@ -1,6 +1,7 @@
 .card {
     display: flex;
     flex-direction: column;
+    outline: 3px solid rgb(25,25,25);
 }
 .card__header  {
     width: 100%;

@@ -1,14 +1,13 @@
 import './App.css';
-import Card from '../Card/Card';
+import List from '../List/List';
+import AddEventForm from '../AddEventForm/AddEventForm';
 
 function App() {
   return (
-    <section className="list" >
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </section >
+    <>
+      <AddEventForm />
+      {/* <List /> */}
+    </>
   );
 }
 
